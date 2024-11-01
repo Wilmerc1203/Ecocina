@@ -1,0 +1,111 @@
+
+.logo{
+    max-width: 400px;
+}
+nav a{
+    font-size: 25px;
+}
+.section1 article{
+    background-color: salmon;
+}
+
+.section1 picture{
+    display: block;
+    background-image: url(../multimedia/bloque_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.raya{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.sobrenosotros article{
+    background-color: #c6c799;
+}
+
+.sobrenosotros picture{
+    background-image: url(../multimedia/bloque_2.jpg);
+}
+@media screen and (max-width: 790px){
+    .sobrenosotros{
+
+        flex-direction: column-reverse !important;
+    }
+
+}
+@media screen and (max-width: 790px){
+    .section1 picture{
+        height: 60vw;
+    }
+    .section2--width {
+        width: 100% !important;
+    }
+    .sobrenosotros{
+
+        flex-direction: column-reverse !important;
+    }
+
+}
+.proximasclases{
+    padding: 90px 0px;
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+}
+
+.proximasclases p, span, a{
+    font-size: 14px;
+}
+
+.proximasclases div{
+    gap: 10px;
+}
+
+.proximasclases article{
+    width: calc(33% - 10px);
+}
+
+.proximasclase{
+    background-color: salmon;
+}
+
+.proximasclase span:nth-last-child(1){
+    background-color: #c6c799;
+}
+
+.proximasclases p:nth-child(2){
+    color: salmon;
+}
+
+.proximasclases a{
+    background-color: salmon;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 790px){
+    .proximasclases article{
+        width: 100%;
+    }
+
+}
+.chef{
+    height: 100vh;
+    background-image: url(../multimedia/chef_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.chef a{
+    background-color: salmon;
+    text-decoration: none;
+    color: white;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
